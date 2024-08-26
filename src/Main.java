@@ -19,9 +19,5 @@ public class Main {
         System.out.println();
         System.out.println("300_000, 11.99, 12");
         System.out.println(service.calculate(300_000, 11.99, 12));
-
-
-
-
     }
 }
