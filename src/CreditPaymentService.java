@@ -3,8 +3,6 @@ public class CreditPaymentService {
         double creditMonthRate = creditYearRate / 12 / 100;
         double x = (creditMonthRate * (Math.pow(1 + creditMonthRate, termsPaymentMonth))) / (Math.pow(1 + creditMonthRate, termsPaymentMonth)-1);
         double result = x * sumOfCredit;
-
         return (int) result;
-
     }
 }
